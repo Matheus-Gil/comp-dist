@@ -1,0 +1,347 @@
+2024-08-29 09:26:05,547 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.200:8080
+2024-08-29 09:26:05,547 - [33mPress CTRL+C to quit[0m
+2024-08-29 09:26:05,547 -  * Restarting with stat
+2024-08-29 09:26:05,977 -  * Debugger is active!
+2024-08-29 09:26:05,987 -  * Debugger PIN: 391-249-703
+2024-08-29 09:26:09,119 - 127.0.0.1 - - [29/Aug/2024 09:26:09] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2024-08-29 09:26:11,760 - Usu√°rio brivaldo, acessou o index.
+2024-08-29 09:26:11,760 - 127.0.0.1 - - [29/Aug/2024 09:26:11] "GET / HTTP/1.1" 200 -
+2024-08-29 09:26:11,944 - 127.0.0.1 - - [29/Aug/2024 09:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-29 09:26:15,273 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/ HTTP/1.1" 200 -
+2024-08-29 09:26:15,364 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,367 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1" 200 -
+2024-08-29 09:26:15,369 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,374 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1" 200 -
+2024-08-29 09:26:15,376 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,376 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,377 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+2024-08-29 09:26:15,379 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,382 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,385 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1" 200 -
+2024-08-29 09:26:15,388 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1" 200 -
+2024-08-29 09:26:15,390 - 127.0.0.1 - - [29/Aug/2024 09:26:15] "GET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 09:26:16,156 - 127.0.0.1 - - [29/Aug/2024 09:26:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-29 09:26:17,851 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/profile/ HTTP/1.1" 200 -
+2024-08-29 09:26:17,958 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 09:26:17,958 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,958 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1" 200 -
+2024-08-29 09:26:17,965 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,966 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,969 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1" 200 -
+2024-08-29 09:26:17,971 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,971 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,975 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,977 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,977 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,984 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+2024-08-29 09:26:17,985 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,985 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+2024-08-29 09:26:17,987 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 09:26:17,990 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 09:26:17,993 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "GET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 09:26:17,996 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,998 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:17,998 - 127.0.0.1 - - [29/Aug/2024 09:26:17] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:18,072 - 127.0.0.1 - - [29/Aug/2024 09:26:18] "GET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2024-08-29 09:26:21,797 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "GET /admin/ HTTP/1.1" 200 -
+2024-08-29 09:26:21,880 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,883 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,883 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,885 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,890 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,890 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,892 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,901 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,903 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,905 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,907 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:21,908 - 127.0.0.1 - - [29/Aug/2024 09:26:21] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,678 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "GET /admin/profile/ HTTP/1.1" 200 -
+2024-08-29 09:26:22,802 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,803 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,803 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,806 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,810 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,810 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,811 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,813 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,818 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,820 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,823 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,831 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,832 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,832 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,832 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,833 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,835 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,836 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,838 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:22,840 - 127.0.0.1 - - [29/Aug/2024 09:26:22] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,060 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[32mGET /admin HTTP/1.1[0m" 308 -
+2024-08-29 09:26:26,074 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "GET /admin/ HTTP/1.1" 200 -
+2024-08-29 09:26:26,159 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,161 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,162 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,166 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,167 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,171 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,171 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,173 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,176 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,183 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,184 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 09:26:26,192 - 127.0.0.1 - - [29/Aug/2024 09:26:26] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:07,175 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.15.36:8080
+2024-08-29 17:25:07,175 - [33mPress CTRL+C to quit[0m
+2024-08-29 17:25:07,176 -  * Restarting with stat
+2024-08-29 17:25:07,744 -  * Debugger is active!
+2024-08-29 17:25:07,746 -  * Debugger PIN: 480-170-182
+2024-08-29 17:25:14,346 - 127.0.0.1 - - [29/Aug/2024 17:25:14] "[32mGET /admin HTTP/1.1[0m" 308 -
+2024-08-29 17:25:14,871 - 127.0.0.1 - - [29/Aug/2024 17:25:14] "[31m[1mGET /admin/ HTTP/1.1[0m" 401 -
+2024-08-29 17:25:23,607 - 127.0.0.1 - - [29/Aug/2024 17:25:23] "GET /admin/ HTTP/1.1" 200 -
+2024-08-29 17:25:23,983 - 127.0.0.1 - - [29/Aug/2024 17:25:23] "GET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 17:25:24,058 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1" 200 -
+2024-08-29 17:25:24,061 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1" 200 -
+2024-08-29 17:25:24,071 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1" 200 -
+2024-08-29 17:25:24,076 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 17:25:24,083 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1" 200 -
+2024-08-29 17:25:24,313 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+2024-08-29 17:25:24,474 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 17:25:24,478 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1" 200 -
+2024-08-29 17:25:24,478 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1" 200 -
+2024-08-29 17:25:24,478 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1" 200 -
+2024-08-29 17:25:24,509 - 127.0.0.1 - - [29/Aug/2024 17:25:24] "GET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 17:25:25,071 - 127.0.0.1 - - [29/Aug/2024 17:25:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-29 17:25:27,068 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "GET /admin/ HTTP/1.1" 200 -
+2024-08-29 17:25:27,374 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,391 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,391 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,391 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,392 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,396 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,682 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,699 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,700 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,700 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,704 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:27,704 - 127.0.0.1 - - [29/Aug/2024 17:25:27] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:28,233 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/profile/ HTTP/1.1" 200 -
+2024-08-29 17:25:28,260 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:28,370 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:28,574 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:28,581 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1" 200 -
+2024-08-29 17:25:28,581 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1" 200 -
+2024-08-29 17:25:28,582 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1" 200 -
+2024-08-29 17:25:28,595 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+2024-08-29 17:25:28,682 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2024-08-29 17:25:28,890 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+2024-08-29 17:25:28,900 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 17:25:28,902 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:28,903 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 17:25:28,909 - 127.0.0.1 - - [29/Aug/2024 17:25:28] "GET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 17:25:29,166 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,195 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,210 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,210 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,211 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,215 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,473 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:29,504 - 127.0.0.1 - - [29/Aug/2024 17:25:29] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,188 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "GET /admin/profile/details/?id=1&url=/admin/profile/ HTTP/1.1" 200 -
+2024-08-29 17:25:31,268 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,438 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,534 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,536 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,538 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,549 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "GET /admin/static/admin/js/details_filter.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-29 17:25:31,577 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,741 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,845 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,847 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,851 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,853 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:31,887 - 127.0.0.1 - - [29/Aug/2024 17:25:31] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:38,825 - 127.0.0.1 - - [29/Aug/2024 17:25:38] "GET /admin/profile/new/?url=/admin/profile/ HTTP/1.1" 200 -
+2024-08-29 17:25:38,897 - 127.0.0.1 - - [29/Aug/2024 17:25:38] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,058 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,218 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,219 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,221 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,223 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,223 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,366 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,526 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,526 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,527 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,531 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,533 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,678 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,838 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,838 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:39,838 - 127.0.0.1 - - [29/Aug/2024 17:25:39] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,044 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "GET /admin/ HTTP/1.1" 200 -
+2024-08-29 17:25:41,146 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,306 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,388 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,388 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,389 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,395 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,463 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,617 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,693 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,694 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,696 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-29 17:25:41,698 - 127.0.0.1 - - [29/Aug/2024 17:25:41] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-29 17:26:02,503 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.15.36:8080
+2024-08-29 17:26:02,503 - [33mPress CTRL+C to quit[0m
+2024-08-29 17:26:02,504 -  * Restarting with stat
+2024-08-29 17:26:03,017 -  * Debugger is active!
+2024-08-29 17:26:03,019 -  * Debugger PIN: 480-170-182
+2024-08-29 17:31:19,733 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.15.36:8080
+2024-08-29 17:31:19,733 - [33mPress CTRL+C to quit[0m
+2024-08-29 17:31:19,734 -  * Restarting with stat
+2024-08-29 17:31:20,325 -  * Debugger is active!
+2024-08-29 17:31:20,328 -  * Debugger PIN: 480-170-182
+2024-08-29 17:32:13,320 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.15.36:8080
+2024-08-29 17:32:13,321 - [33mPress CTRL+C to quit[0m
+2024-08-29 17:32:13,321 -  * Restarting with stat
+2024-08-29 17:32:13,849 -  * Debugger is active!
+2024-08-29 17:32:13,851 -  * Debugger PIN: 480-170-182
+2024-08-31 19:39:19,605 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.15.36:8080
+2024-08-31 19:39:19,609 - [33mPress CTRL+C to quit[0m
+2024-08-31 19:39:19,615 -  * Restarting with stat
+2024-08-31 19:39:20,491 -  * Debugger is active!
+2024-08-31 19:39:20,497 -  * Debugger PIN: 480-170-182
+2024-08-31 19:39:26,305 - 127.0.0.1 - - [31/Aug/2024 19:39:26] "[32mGET /admin HTTP/1.1[0m" 308 -
+2024-08-31 19:39:26,491 - 127.0.0.1 - - [31/Aug/2024 19:39:26] "[31m[1mGET /admin/ HTTP/1.1[0m" 401 -
+2024-08-31 19:39:31,333 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "GET /admin/ HTTP/1.1" 200 -
+2024-08-31 19:39:31,658 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:31,683 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:31,683 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:31,699 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-31 19:39:31,723 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:31,737 - 127.0.0.1 - - [31/Aug/2024 19:39:31] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,061 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,070 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,073 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,075 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,085 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,117 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:32,513 - 127.0.0.1 - - [31/Aug/2024 19:39:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-31 19:39:36,937 - 127.0.0.1 - - [31/Aug/2024 19:39:36] "GET /admin/ HTTP/1.1" 200 -
+2024-08-31 19:39:37,244 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,277 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,277 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,280 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,282 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,283 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,556 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,588 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,589 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,589 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,591 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-31 19:39:37,594 - 127.0.0.1 - - [31/Aug/2024 19:39:37] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:42,480 - 127.0.0.1 - - [31/Aug/2024 19:39:42] "GET /admin/profile/ HTTP/1.1" 200 -
+2024-08-31 19:39:44,210 - 127.0.0.1 - - [31/Aug/2024 19:39:44] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:44,210 - 127.0.0.1 - - [31/Aug/2024 19:39:44] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:44,211 - 127.0.0.1 - - [31/Aug/2024 19:39:44] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:56,826 - 127.0.0.1 - - [31/Aug/2024 19:39:56] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:56,827 - 127.0.0.1 - - [31/Aug/2024 19:39:56] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:56,827 - 127.0.0.1 - - [31/Aug/2024 19:39:56] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:56,830 - 127.0.0.1 - - [31/Aug/2024 19:39:56] "GET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-31 19:39:56,830 - 127.0.0.1 - - [31/Aug/2024 19:39:56] "GET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-31 19:39:56,831 - 127.0.0.1 - - [31/Aug/2024 19:39:56] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+2024-08-31 19:39:57,132 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,132 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,133 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,474 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,474 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,475 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,475 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,475 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,476 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:57,917 - 127.0.0.1 - - [31/Aug/2024 19:39:57] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:58,003 - 127.0.0.1 - - [31/Aug/2024 19:39:58] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2024-08-31 19:39:58,078 - 127.0.0.1 - - [31/Aug/2024 19:39:58] "GET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2024-09-21 17:30:34,084 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.15.36:8080
+2024-09-21 17:30:34,085 - [33mPress CTRL+C to quit[0m
+2024-09-21 17:30:34,088 -  * Restarting with stat
+2024-09-21 17:30:34,623 -  * Debugger is active!
+2024-09-21 17:30:34,626 -  * Debugger PIN: 764-715-485
+2024-09-21 17:30:41,253 - 127.0.0.1 - - [21/Sep/2024 17:30:41] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2024-09-21 17:30:45,723 - Usu·rio brivaldo, acessou o index.
+2024-09-21 17:30:45,723 - 127.0.0.1 - - [21/Sep/2024 17:30:45] "GET / HTTP/1.1" 200 -
+2024-09-21 17:30:45,760 - 127.0.0.1 - - [21/Sep/2024 17:30:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-21 17:30:51,185 - 127.0.0.1 - - [21/Sep/2024 17:30:51] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-09-21 17:30:51,213 - 127.0.0.1 - - [21/Sep/2024 17:30:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-21 17:31:05,497 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "[32mGET /admin HTTP/1.1[0m" 308 -
+2024-09-21 17:31:05,564 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/ HTTP/1.1" 200 -
+2024-09-21 17:31:05,741 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1" 200 -
+2024-09-21 17:31:05,746 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1" 200 -
+2024-09-21 17:31:05,749 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1" 200 -
+2024-09-21 17:31:05,760 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1" 200 -
+2024-09-21 17:31:05,764 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1" 200 -
+2024-09-21 17:31:05,765 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1" 200 -
+2024-09-21 17:31:05,767 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1" 200 -
+2024-09-21 17:31:05,777 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1" 200 -
+2024-09-21 17:31:05,780 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1" 200 -
+2024-09-21 17:31:05,780 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+2024-09-21 17:31:05,783 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1" 200 -
+2024-09-21 17:31:05,813 - 127.0.0.1 - - [21/Sep/2024 17:31:05] "GET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1" 200 -
+2024-09-21 17:31:12,657 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "GET /admin/ HTTP/1.1" 200 -
+2024-09-21 17:31:12,671 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,672 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,673 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,675 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,677 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,678 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,680 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,681 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,684 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,685 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,686 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:12,688 - 127.0.0.1 - - [21/Sep/2024 17:31:12] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,578 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/profile/ HTTP/1.1" 200 -
+2024-09-21 17:31:14,602 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,603 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,603 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,606 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,610 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1" 200 -
+2024-09-21 17:31:14,611 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,611 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,612 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1" 200 -
+2024-09-21 17:31:14,612 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1" 200 -
+2024-09-21 17:31:14,613 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,618 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,619 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,626 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/yeti/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,629 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,632 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2024-09-21 17:31:14,632 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1" 200 -
+2024-09-21 17:31:14,637 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+2024-09-21 17:31:14,637 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1" 200 -
+2024-09-21 17:31:14,641 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+2024-09-21 17:31:14,643 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+2024-09-21 17:31:14,652 - 127.0.0.1 - - [21/Sep/2024 17:31:14] "GET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2024-09-21 17:31:43,414 - 127.0.0.1 - - [21/Sep/2024 17:31:43] "[31m[1mGET / HTTP/1.1[0m" 401 -
