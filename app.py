@@ -7,6 +7,8 @@ from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.exceptions import HTTPException
+from models import Profile
+from database import db
 
 # Application log
 logging.basicConfig(format='%(asctime)s - %(message)s', filename="log/app.log", level=logging.INFO)
@@ -28,25 +30,6 @@ app.config['FLASK_ADMIN_SWATCH'] = 'yeti'
 # adding configuration for using a database
 app.config['SQLALCHEMY_DATABASE_URI'] = app.config.get('DATABASE')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-# Creating an SQLAlchemy instance
-db = SQLAlchemy(app)
-
-# Settings for migrations
-migrate = Migrate(app, db)
-
-
-class Profile(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(20), unique=True, nullable=False, index=True)
-    password = db.Column(db.String(32), nullable=False)
-    email = db.Column(db.String(65), unique=True, nullable=True)
-    registered = db.Column(db.DateTime(timezone=True), default=db.func.now())
-
-    # repr method represents how one object of this datatable will look like
-    def __repr__(self):
-        return f"{self.username}"
-
 
 # Authentication control
 @auth.verify_password
@@ -107,6 +90,7 @@ class ProfileView(MyModelView):
     can_export = True
     can_view_details = True
 
+db.init_app(app)
 
 # Admin Interface
 admin = Admin(app, name='Super App', template_mode='bootstrap4')
