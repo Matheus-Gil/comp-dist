@@ -1,0 +1,25 @@
+version: "3"
+services:
+    compdist:
+        build: .
+        ports:
+        - 8080:8080
+    db:
+        image: mysql/mysql-server:latest
+        container_name: app-database
+        restart: always
+        environment:
+          MYSQL_USER: 'user'
+          MYSQL_PASSWORD: 'password'      
+          MYSQL_ROOT_PASSWORD: 'password'
+          MYSQL_DATABASE: 'compdist'
+        ports:
+          - 3306:3306
+        expose:
+          - 3306
+        volumes:
+          - mysql-volume:/var/lib/mysql
+
+volumes:
+  mysql-volume:
+    driver: local
