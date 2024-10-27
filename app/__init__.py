@@ -3,10 +3,22 @@ from flask import Flask, jsonify
 from models import Profile
 from database import db
 from auth import auth
+from sqlalchemy import select
+import datetime
 
 # Application log
 logging.basicConfig(format='%(asctime)s - %(message)s', filename="log/app.log", level=logging.INFO)
 log = logging.getLogger()
+
+def create_default_user(db, app):
+    with app.app_context():
+        userAlreadyExists = db.session.execute(select(Profile.id).limit(1)).fetchone()
+        if not userAlreadyExists:
+            name = app.config.get('DEFAULT_ADMIN_NAME')
+            passw = app.config.get('DEFAULT_ADMIN_PASSWORD')
+            admail = app.config.get('DEFAULT_ADMIN_EMAIL')
+            db.session.add(Profile(id='1', username=name, password=passw, email=admail, registered= datetime.datetime.now()))
+            db.session.commit()
 
 def create_app_instance():
     # Web Application name
@@ -26,5 +38,6 @@ def create_app_instance():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     db.init_app(app)
+    create_default_user(db, app)
 
     return app
