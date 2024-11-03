@@ -6,6 +6,7 @@ services:
           - 8080:8080
         depends_on:
           - db
+        restart: always
     db:
         image: mysql/mysql-server:latest
         container_name: app-database
